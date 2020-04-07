@@ -21,11 +21,19 @@ class MyApp extends StatelessWidget {
               Text(
                 'Zach Schuster',
                 style: TextStyle(
+                  fontFamily: 'SourceCodePro',
                   color: Colors.white70,
-                  fontSize: 40.0,
-                  fontWeight: FontWeight.bold
+                  fontSize: 40.0
                 ),
-              )
+              ),
+              Text(
+                'ML Engineer',
+                style: TextStyle(
+                  fontFamily: 'SourceSansPro',
+                  color: Colors.white70,
+                  fontSize: 35.0
+                ),
+              ),
             ],
           ),
         ),
